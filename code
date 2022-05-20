@@ -1,0 +1,22 @@
+--create table student(names char(32),age number(2),gender char(5),phno number(10),email varchar(20),address varchar(20));
+--select *from student;
+--insert into student values('koushik',18,'male',3456789,'mgandret@gitam.in','vu21csen0101199');
+--insert into student values('kiran',18,'male',0000789,'kgorpal@gitam.in','vu21csen0101012');
+--select names,age from student;
+--select distinct names,age from student;
+--select count(distinct names) from student;
+--select count(*) as distinctnames from(select distinct names from student);
+--update student set phno=9896959 where names='koushik';
+--select *from student where names='kiran'
+--create table student1(names char(32) primary key,age number(10));
+--insert into student1 values('koushik',18);
+--insert into student1 values('kiran',19);
+--insert into student1 values('mani',20);
+--insert into student1  values('deekshit',19);
+--insert into student1 values('vamsi',18);
+--select name from student1;
+--select *from student1 where age=18;
+--select *from student1 where age=18 or age=19(or,and,not);
+--select *from student1 order by age;
+--select *from student1 order by age desc;
+select *from student1 order by name asc,age desc;
