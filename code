@@ -20,3 +20,19 @@
 --select *from student1 order by age;
 --select *from student1 order by age desc;
 select *from student1 order by name asc,age desc;
+SESSION 2
+--create table koushik(names char(32) primary key,age number(10));
+--insert into koushik values('koushik',18);
+--insert into koushik values('kiran',19);
+--insert into koushik values('deekshit',20);
+--select *from koushik order by age desc;
+--select *from koushik order by age;
+--insert into koushik(names) values('chaitu');
+--select *from koushik;
+--select names from koushik where age is null;
+--select names from koushik where age is not null;
+--update koushik set age=17 where names='chaitu';
+--select *from koushik;
+--delete from koushik where names='koushik';
+--select *from koushik;
+--select top 3*from koushik;
