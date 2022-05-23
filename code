@@ -36,3 +36,14 @@ SESSION 2
 --delete from koushik where names='koushik';
 --select *from koushik;
 --select top 3*from koushik;
+TABLE MARKS
+create table sem1(course_code varchar(10),course_name char(30),grade char(5));
+insert into sem1 values('CHEM1001','Chemistry','A+');
+insert into sem1 values('CLAD1001','EMORS','A');
+insert into sem1  values('CSEN1001','IT PROD','S');
+insert into sem1 values('CSEN1011','cse','B+')
+insert into sem1 values('MATH1001','single variable','A');
+insert into sem1 values('MATH1001','several variable','B+');
+insert into sem1 values('MECH1021','workshop','S');
+insert into sem1 values('VEDC1001','venture development','A');
+select *from sem1;
